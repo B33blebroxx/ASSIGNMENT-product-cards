@@ -2,15 +2,14 @@ body {
   background-color: aqua;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 100vh;
 }
 
 /* section elements */
 
 .sec-1 {
-  background-color: aqua;
-  padding: 3rem 1rem;
+  
 }
 
 /* card elements */
@@ -22,6 +21,8 @@ body {
   flex-direction: row;
   align-content: flex-start;
   justify-content: space-evenly;
+  gap: 5px;
+  row-gap: 5px;
 }
 
 .card-container-2 {
@@ -31,6 +32,8 @@ body {
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
+  gap: 5px;
+  row-gap: 5px;
 }
 
 .card-container-3 {
@@ -40,4 +43,34 @@ body {
   flex-direction: row;
   align-content: flex-end;
   justify-content: space-evenly;
+  gap: 5px;
+  row-gap: 5px;
+}
+
+.title-header {
+  border: 1px solid lightblue;
+  text-align: center;
+ 
+}
+
+.img-blk {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.details {
+  font-weight: bold;
+}
+
+.availability {
+  background-color: darkgrey;
+  color: yellow;
+  background-size: cover;
+}
+
+.a {
+  display: flex;
+  flex-direction: row;
 }
