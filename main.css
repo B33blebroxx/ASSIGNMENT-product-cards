@@ -1,3 +1,5 @@
+
+
 body {
   background-color: aqua;
   display: flex;
@@ -8,14 +10,10 @@ body {
 
 /* section elements */
 
-.sec-1 {
-  
-}
 
 /* card elements */
 
 .card-container-1 {
-  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -23,10 +21,11 @@ body {
   justify-content: space-evenly;
   gap: 5px;
   row-gap: 5px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center
 }
 
 .card-container-2 {
-  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -34,23 +33,28 @@ body {
   justify-content: space-evenly;
   gap: 5px;
   row-gap: 5px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center
 }
 
-.card-container-3 {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-  justify-content: space-evenly;
-  gap: 5px;
-  row-gap: 5px;
-}
 
 .title-header {
   border: 1px solid lightblue;
   text-align: center;
  
+}
+
+.title-header:hover {
+  color: black;
+  background: yellow;
+}
+
+@media (hover: hover) {
+  /* when hover is supported */
+  a:hover {
+    color: white;
+    background: black;
+  }
 }
 
 .img-blk {
@@ -73,4 +77,8 @@ body {
 .a {
   display: flex;
   flex-direction: row;
+}
+
+footer {
+  font-size: small;
 }
